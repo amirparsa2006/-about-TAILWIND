@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body id="body1">
+    <a href="tailwind.html">home</a>
+    <hr>
+    <h1 class="text-red-600 text-center font-extrabold text-5xl p-3 2xl:text-yellow-400 sm:text-blue-500 btn border-2 border-blue-500 hover:bg-blue-200 m-4 relative hover:text-black hover:shadow-lg active:text-orange-500 ease-out duration-700 transform hover:scale-110 hover:bg-opacity-75">
+      <a href="https://tailwindcss.com/docs/installation"> tailwind </a> 
+    </h1>
+    <h2 class="p-4 font-bold text-xl italic sm:text-red-600 2xl:text-yellow-400 md:text-white hover:text-blue-500  transition ease-out duration-500 ">
+        Tailwind CSS چیست؟
+    </h2>
+    <p class="text-white font-sans">
+        Tailwind CSS یک فریمورک CSS است که برای اولین بار به کاربران امکان می ‌دهد تا برنامه ‌ها را سریع تر و آسان ‌تر ایجاد کنند. می‌ توانید از کلاس ‌های کاربردی برای کنترل آرایش اجزا، رنگ ، فاصله، تایپوگرافی، سایه‌ ها و موارد دیگر استفاده کنید تا یک طراحی کامپوننت کاملا سفارشی بدون این که محیط‌HTML تان را ترک کنید یا حتی یک خط CSS سفارشی بنویسید ، ایجاد کنید.
+        <br>
+        به طور مثال فرض کنید می‌ خواهید دکمه ‌ای ایجاد کنید که ارتفاع ثابت، لایه افقی، رنگ پس ‌زمینه مشکی، لبه ‌های گرد و فونت سفید و نیمه پر رنگ داشته باشد . کد HTML شما به این صورت خواهد بود:
+<br>
+<span class="text-green-400">
+    button class=”h-10 px-6 font-semibold rounded-md bg-black text-white” type=”submit”>parsa>
+</span>
+<br>
+<span class="pt-20">
+    HTML‌ شامل شش کلاس کاربردی است. هر کدام از آن ها به این صورت تعریف می ‌شوند:
+</span>
+<br>
+h-10: این کلاس دکمه را روی ارتفاع ثابت 10 واحد تنظیم می ‌کند.
+<br>
+px-6: این کلاس حاشیه ‌بندی افقی دکمه را روی 6 واحد تنظیم می ‌‌کند .
+<br>
+font-semibold : این کلاس وزن یا سیاهی فونت دکمه را بر روی نیمه بولد قرار می ‌دهد.
+<br>
+rounded-md: این کلاس شعاع حاشیه دکمه را طوری تنظیم می ‌کند که گوشه‌ های گرد داشته‌‌ باشند.
+<br>
+bg-black: این کلاس رنگ پس ‌زمینه دکمه را سیاه می ‌کند.
+<br>
+text-white : این کلاس رنگ متن دکمه را سفید می ‌کند.
+    </p>
+    <h2 class="p-4 font-bold text-xl italic sm:text-red-600 2xl:text-yellow-400 md:text-white hover:text-red-600  transition ease-out duration-300 ">
+        مزایای Tailwind CSS
+    </h2>
+    <p class="text-white font-sans hover:text-yellow-100">
+        استفاده از فریمورک CSS مثل تیلویند مزایای زیادی دارد. در ادامه اکثر آن ها توضیح داده شده ‌اند:
+        <br>
+        کم تر لازم است که شما CSS سفارشی بنویسید. با تیلویند، عناصر را با اعمال کلاس ‌های از قبل موجود مستقیما در‌HTML تان استایل‌ دهی می ‌کنید. با استفاده از کلاس ‌های کاربردی در این روش، می ‌توانید طرح‌ های سفارشی را بدون نوشتن CSS بسازید.
+        <br>
+        شما فایل ‌های CSS را کوچک نگه می ‌دارید. بدون فریمورکی مثل تیلویند، باید هم زمان با افزودن ویژگی ‌ها و مؤلفه‌ های جدید، به نوشتن CSS ادامه بدهید. در نتیجه، فایل ‌های CSS شما سنگین ‌تر می‌ شوند. با استفاده از ابزار هایی مثل نرم ‌افزار Tailwind’s flexbox و ابزار های حاشیه ‌بندی، بیشتر استایل ها قابل استفاده مجدد هستند، بنابراین به ندرت نیاز به نوشتن CSS جدید خواهید داشت .
+        <br>
+        شما مجبور نیستید از خودتان نام کلاس تعریف کنید. با تیلویند شما کلاس ‌ها را از یک سیستم طراحی از پیش تعریف ‌شده انتخاب می ‌کنید. یعنی این که برای انتخاب نام‌ های کلاس خوب برای سبک ‌ها و کامپوننت های خاص به دردسر نمی ‌افتید و لازم نیست موارد پیچیده را به خاطر بسپارید.
+        <br>
+        شما می‌ توانید تغییرات ایمن ‌تری ایجاد کنید. در روش سنتی ، اگر تغییراتی در CSS ایجاد کنید، ممکن است چیزی را در سایت تان دچار مشکل شود. برخلافCSS ، کلاس ‌های ابزار در HTML شما محلی هستند. این یعنی این که می ‌توانید بدون نگرانی در مورد ایجاد تغییر در چیز دیگری در سایت تان، آن ها را تغییر بدهید.
+    </p>
+    <h3 class="p-4 font-bold text-xl italic sm:text-red-600 2xl:text-yellow-400 md:text-white hover:text-yellow-600  transition ease-out duration-700 hover:animate-pulse">
+        چرا Tailwind CSS؟
+
+    </h3>
+    <p class="text-white font-sans hover:text-yellow-100">
+        حالا ممکن است از خودتان بپرسید که چرا از تیلویند به جای سایر فریمورک ‌های CSS استفاده کنیم؟ Tailwind CSS یک فریمورک سطح پایین است. به این معنی که برخلاف سایر فریمورک های CSS مثل Bootstrap و Materialize، اجزای کاملا استایل‌ دهی شده ‌ای مثل دکمه ‌ها، فهرست‌ های آبشاری و نوار های ناوبری را ارائه نمی ‌دهد. در عوض، کلاس ‌های کاربردی را ارائه می ‌دهد تا بتوانید اجزای قابل استفاده مجدد را ایجاد کنید.
+
+        تیلویند به همین دلیل، انعطاف ‌پذیری و کنترل بسیار بیشتری را بر روی ظاهر برنامه شما نسبت به سایر فریمورک ‌های CSS فراهم می ‌کند. این فریمورک می ‌تواند شما را قادر کند تا یک سایت منحصر به فردتر ایجاد نمایید .
+    </p>
+    <h4 class="p-4 font-bold text-xl italic sm:text-red-600 2xl:text-yellow-400 md:text-white hover:text-green-600 transition ease-out duration-1000">
+        نمونه ‌های Tailwind CSS
+    </h4>
+    <p class="text-white font-sans hover:text-yellow-100">
+        تیلویند مؤلفه‌ ها و قالب‌ های رابط کاربری یا “نمونه‌ هایی” را ارائه می ‌کند تا به شما کمک کند که برنامه‌ تان را سریع تر بسازید.
+
+تیلویند مخزنی ساخته که شامل نمونه‌ هایی از بهترین صفحه فرود، بخش های مربوط به ویژگی، فرم‌ های ثبت ‌نام در خبر نامه، جداول، پنجره‌ های مودال، فرم‌ های پرداخت ، سبد خرید و موارد دیگر است. می ‌توانید کد اکثر یا همه این نمونه ‌ها را با یک بار هزینه برای بسته دریافت کنید.
+
+مخزن دیگر توسط اعضای انجمن ایجاد ‌شده و منبع ‌باز است. در ادامه بر روی نمونه‌ هایی از این مخزن تمرکز خواهیم کرد.
+    </p>
+    <h2 class="p-6 font-bold text-xl italic sm:text-red-600 2xl:text-yellow-400 md:text-white ">
+        نحوه نصب
+        <span class="hover:text-blue-400  transition ease-out duration-600 hover:transform scale-150 hover:animate-pulse">
+            tailwind
+        </span>
+    </h2>
+    <p>
+        <iframe src="https://tailwindcss.com/docs/installation" frameborder="0" width="1500" height="500" class="border-5"></iframe>
+    </p>
+    <h2 class="p-6 font-bold text-xl italic sm:text-red-600 2xl:text-yellow-400 md:text-white hover:text-blue-900 transition ease-out duration-600 ">
+ استایل های tailwind
+    </h2>
+    <p>
+        <iframe src="https://tailwindcss.com/docs/customizing-colors" frameborder="2" width="1500" height="500" ></iframe>
+    </p>
+    
+    <hr>
+    <p class="pt-10 pr-4 font-bold text-xl italic sm:text-red-600 2xl:text-yellow-400 md:text-white hover:text-red-500 transition ease-out duration-1000 animate-bounce">
+        کل این سایت با استفاده از tailwind دیزاین شده است
+    </p>
+    <hr>
+    
+</body>
+</html>
